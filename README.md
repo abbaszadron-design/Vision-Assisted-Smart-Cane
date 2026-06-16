@@ -9,8 +9,8 @@ The goal of this project is to combine computer vision, distance sensors, and au
 * Raspberry Pi 5
 * Raspberry Pi Camera Module 3
 * Time-of-Flight (ToF) distance sensors
-* Speaker or bone-conduction headset
-* Portable battery pack
+* Speaker
+* Rechargeable battery pack
 
 ## Software
 
@@ -22,4 +22,4 @@ The goal of this project is to combine computer vision, distance sensors, and au
 
 ## Project Goals
 
-The primary goal is to create a working prototype capable of assisting visually impaired users by detecting important objects and hazards in real time. This project will also provide hands-on experience with computer vision, machine learning, embedded systems, and sensor integration.
+The primary goal is to create a working prototype capable of assisting visually impaired users by detecting important objects and hazards in real time.
