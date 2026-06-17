@@ -38,3 +38,10 @@ To improve reliability, the system also utilizes Time-of-Flight (ToF) distance s
 Once an object is identified and its distance is calculated, the Smart AI Cane generates an audio alert through the integrated text-to-speech system. For example, the system may announce messages such as "Obstacle ahead, 2 meters," "Stairs ahead," or "Wall ahead, 1 meter." This allows the user to receive immediate feedback about changes in the environment and make safer navigation decisions while walking.
 
 The long-term goal of this project is to create a portable and affordable assistive device capable of providing real-time environmental awareness and improving mobility for visually impaired individuals.
+
+## System Diagram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/41ead798-5adb-44f8-94ea-642670812c09" />
+
+
+## Prototype Layout 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f13dc7d0-8e10-4838-a6a6-b358b68af960" />
