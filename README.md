@@ -6,11 +6,12 @@ The goal of this project is to combine computer vision, distance sensors, and au
 
 ## Hardware
 
-* Raspberry Pi 5
-* Raspberry Pi Camera Module 3
-* Time-of-Flight (ToF) distance sensors
-* Speaker
-* Rechargeable battery pack
+* Arduino UNO Q 4GB
+* Logitech C270 Webcam
+* VL53L1X ToF Distance Sensors (13ft max)
+* Bluetooth Earbuds
+* 10000mAh 45W USB-C PD Power Bank
+* 7-in-1 USB-C Hub
 
 ## Software
 
