@@ -1,51 +1,20 @@
-# Models
+# YOLOv8 Nano (yolov8n.pt)
 
-This folder contains the machine learning models used by the Smart AI Cane project.
+This folder contains documentation and example outputs for the YOLOv8 Nano model used by the Smart AI Cane project.
 
-## Current Model
+## Model Overview
 
-### YOLOv8 Nano (yolov8n.pt)
+YOLOv8 Nano (yolov8n.pt) is a lightweight real-time object detection model developed by Ultralytics. The model is optimized for fast inference while maintaining good detection accuracy, making it suitable for portable and embedded AI applications.
 
-The current prototype uses the pretrained YOLOv8 Nano model provided by Ultralytics.
+## Current Usage
 
-YOLO (You Only Look Once) is a real-time object detection model capable of identifying and locating objects within an image. The Nano version was selected because it provides fast inference speeds while maintaining reasonable detection accuracy, making it suitable for deployment on embedded and portable hardware.
+The Smart AI Cane currently uses YOLOv8 Nano to detect:
 
-### Objects Currently Used
+* Person (Class 0)
+* Chair (Class 56)
+* Cell Phone (Class 67)
 
-The Smart AI Cane currently utilizes the following YOLOv8 object classes:
+Detected objects are highlighted with bounding boxes and confidence scores. When a supported object is detected with sufficient confidence, the system provides an audio warning to the user.
 
-| Object     | YOLO Class ID |
-| ---------- | ------------- |
-| Person     | 0             |
-| Chair      | 56            |
-| Cell Phone | 67            |
-
-When one of these objects is detected with sufficient confidence, the system generates an audio warning for the user.
-
-### Audio Warnings
-
-| Object     | Audio Output   |
-| ---------- | -------------- |
-| Person     | "Person ahead" |
-| Chair      | "Chair"  |
-| Cell Phone | "Phone ahead"  |
-
-## Future Models
-
-Future versions of the Smart AI Cane will incorporate custom-trained YOLO models for navigation-specific objects, including:
-
-* Doors
-* Stairs
-* Shopping Carts
-* Obstacles
-* Walls
-
-These custom models will improve the system's usefulness for visually impaired users by focusing on objects relevant to navigation and hazard avoidance.
-
-## Model Source
-
-Current model:
-
-* yolov8n.pt (Ultralytics YOLOv8 Nano)
-
-The model is loaded within the application using the Ultralytics Python package.
+## Example Outputs
+<img width="677" height="473" alt="image" src="https://github.com/user-attachments/assets/841ed823-54f4-48b3-a3f5-cc31454449a3" />
