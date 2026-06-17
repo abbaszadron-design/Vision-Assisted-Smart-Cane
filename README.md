@@ -44,4 +44,4 @@ The long-term goal of this project is to create a portable and affordable assist
 
 
 ## Prototype Layout 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f13dc7d0-8e10-4838-a6a6-b358b68af960" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f13dc7d0-8e10-4838-a6a6-b358b68af960" />
